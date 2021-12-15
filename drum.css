@@ -59,11 +59,11 @@ button{
     border-color: rgb(255, 255, 255);
 }
 .w{
-    background:url(/images/crash.png);
+    background:url(../images/crash.png);
     
 }
 .a{
-background:url(/images/tom2.png);  
+background:url(../images/tom2.png);  
 background-repeat: no-repeat;
 }
 .s{
