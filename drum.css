@@ -1,0 +1,133 @@
+
+body{
+    background-color: rgb(141, 191, 219);
+    margin: 0px;
+    padding:0px;
+
+}
+ h1{
+   text-align: center;
+    font-size :7em; 
+    margin-bottom:0px;
+ 
+}
+.glowh1{
+    color:rgb(255, 255, 255);
+
+}
+h2{
+    text-align: center;
+     font-size :3em; 
+  
+ }
+.footer{
+    margin-top:50px;
+}
+.footer p{
+    text-align: center;
+}
+.keys{
+   
+    padding-top:15px;
+    padding-bottom:15px;
+    
+    display:flex;
+    flex-direction: row;
+    row-gap:5%;
+    background-color: rgb(133, 134, 141);
+    height:20vh;
+    align-items: center;
+    margin-bottom: 0px;
+    
+   
+}
+button{
+    margin:2%;
+    width:15%;
+    height:100%;
+    font-size: 2rem;
+    border:3px solid black;
+    border-radius: 6px;
+    box-shadow: none;
+  
+
+}
+.pressed{
+    box-shadow: 0px 4px 5px 2px white;
+    opacity:0.5;
+    transform: scale(1.2,1.2);
+    border-color: rgb(255, 255, 255);
+}
+.w{
+    background:url(/images/tom1.png);
+    
+}
+.a{
+background:url(/images/tom2.png);  
+background-repeat: no-repeat;
+}
+.s{
+background:url(/images/tom3.png);
+}
+.d{
+background:url(/images/tom4.png);
+}
+.j{
+background:url(/images/snare.png);
+}
+.k{
+background:url(/images/crash.png);
+}
+.l{
+background:url(/images/kick.png);
+}
+button{
+    color:black;
+    text-shadow: 2px 2px 3px white;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: cursive;
+    
+}
+@media screen and (max-width: 480px) {
+    .keys{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        height:auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .key{
+        width:100px;
+        height:100px;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+    h1{
+        text-align: center;
+         font-size :4em; 
+         margin-bottom:0px;
+      
+     }
+     h2{
+        text-align: center;
+         font-size :1em; 
+      
+     }
+     span{
+         opacity: 0;
+     }
+     
+     #p1{
+        font-size:1.2em;
+        margin-top: 0px;
+
+     }
+     
+     
+   
+  }
