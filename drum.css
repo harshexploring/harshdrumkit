@@ -59,7 +59,7 @@ button{
     border-color: rgb(255, 255, 255);
 }
 .w{
-    background:url("./images/crash.png");
+    background:url("./images/tom1.png");
     
 }
 .a{
@@ -111,7 +111,7 @@ button{
         text-align: center;
         font-size:2.3em;
         width:100vw;
-         margin-bottom:0px;
+        margin-bottom:0px;
       
      }
      h2{
